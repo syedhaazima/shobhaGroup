@@ -44,9 +44,8 @@ const Navbar = () => {
         <div className="container-custom">
           <div className="navbar-inner">
             {/* Brand */}
-            <Link to="/" className="navbar-brand-link" onClick={closeMenu}>
-              <span className="navbar-brand-main">Shobha Group</span>
-              <span className="navbar-brand-sub">Building Excellence. Enriching Lives.</span>
+            <Link to="/" className="navbar-brand-link" onClick={closeMenu} aria-label="Shobha Group home">
+              <span className="navbar-brand-main">Shobha</span>
             </Link>
 
             {/* Nav Links */}
