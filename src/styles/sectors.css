@@ -1,0 +1,16 @@
+/* ===== SECTORS ADDITIONAL ===== */
+
+/* Fix responsive two-column layout on About page */
+@media (max-width: 768px) {
+  .responsive-two-col {
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem !important;
+  }
+}
+
+/* Sector detail gallery placeholder grid */
+@media (max-width: 600px) {
+  .sector-detail-gallery-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
