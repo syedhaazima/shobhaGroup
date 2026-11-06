@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import goldEmblem from '../assets/gold_emblem.png';
-import finalGoldLogo from '../assets/final_gold_logo.png';
+import finalGoldLogo from '../assets/final_gold_logo_optimized.png';
 import '../styles/navbar.css';
 
 const navLinks = [
@@ -48,7 +48,16 @@ const Navbar = () => {
             {/* Brand */}
             <Link to="/" className="navbar-brand-link" onClick={closeMenu} aria-label="Shobha Group home">
               <img className="navbar-brand-logo" src={goldEmblem} alt="Shobha Group emblem" fetchPriority="high" />
-              <img className="navbar-brand-wordmark" src={finalGoldLogo} alt="Shobha Group" />
+              <img
+                className="navbar-brand-wordmark"
+                src={finalGoldLogo}
+                alt="Shobha Group"
+                width="600"
+                height="169"
+                loading="eager"
+                fetchPriority="high"
+                decoding="async"
+              />
             </Link>
 
             {/* Nav Links */}
