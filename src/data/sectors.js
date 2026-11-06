@@ -12,8 +12,10 @@ import educationGallery from "../assets/education2.jfif";
 import madrasaHero from "../assets/madrasa3.jfif";
 import madrasaCard from "../assets/madrasa1.jfif";
 import madrasaGallery from "../assets/madrasa2.jfif";
-import hospitalityImage from "../assets/hospitality2.jfif";
-import healthcareCard from "../assets/hospitality1.jfif";
+import hospitalityHero from "../assets/hospitality.jpeg";
+import hospitalityCard from "../assets/hospitality1.jpeg";
+import hospitalityGallery2 from "../assets/hospitality2.jpeg";
+import hospitalityGallery3 from "../assets/hospitality3.jpeg";
 
 export const sectors = [
   {
@@ -119,9 +121,14 @@ export const sectors = [
     icon: "Hotel",
     shortDesc:
       "Welcoming guest experiences and compassionate healthcare, delivered with quality, comfort, and care.",
-    heroImage: hospitalityImage,
-    cardImage: hospitalityImage,
-    galleryImages: [hospitalityImage, healthcareCard],
+    heroImage: hospitalityHero,
+    cardImage: hospitalityCard,
+    galleryImages: [
+      hospitalityHero,
+      hospitalityCard,
+      hospitalityGallery2,
+      hospitalityGallery3,
+    ],
     color: "#D4AF6A",
     intro:
       "The Hospitality & Healthcare division brings together exceptional guest service and compassionate patient care. It is committed to creating welcoming experiences and supporting the health and well-being of the communities it serves.",
