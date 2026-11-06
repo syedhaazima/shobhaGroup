@@ -4,11 +4,9 @@
 import textileHero from "../assets/textile2.webp";
 import textileCard from "../assets/textile1.jfif";
 import textileGallery from "../assets/textile3.webp";
-import constructionHero from "../assets/constructor2.jfif";
-import constructionCard from "../assets/constructor3.jfif";
-import educationHero from "../assets/education3.jpg";
-import educationCard from "../assets/education1.jpeg";
-import educationGallery from "../assets/education2.jfif";
+import schoolHero from "../assets/school2.jpeg";
+import schoolCard from "../assets/school3.jpeg";
+import schoolGallery from "../assets/school4.jpeg";
 import madrasaHero from "../assets/madrasa3.jfif";
 import madrasaCard from "../assets/madrasa1.jfif";
 import madrasaGallery from "../assets/madrasa2.jfif";
@@ -49,9 +47,9 @@ export const sectors = [
     icon: "Building2",
     shortDesc:
       "Infrastructure development, architectural excellence, and end-to-end project management for landmark construction projects.",
-    heroImage: constructionHero,
-    cardImage: constructionCard,
-    galleryImages: [constructionHero, constructionCard],
+    heroImage: hospitalityHero,
+    cardImage: hospitalityCard,
+    galleryImages: [hospitalityGallery2, hospitalityGallery3],
     color: "#D4AF6A",
     intro:
       "The Construction Division of SOBHA Group is known for delivering iconic and high-quality built environments. With a strong focus on engineering excellence, innovation and timely delivery, we create spaces that inspire and stand the test of time.",
@@ -73,9 +71,9 @@ export const sectors = [
     icon: "GraduationCap",
     shortDesc:
       "Empowering future generations through quality academic programs, professional development, and holistic learning environments.",
-    heroImage: educationHero,
-    cardImage: educationCard,
-    galleryImages: [educationCard, educationHero, educationGallery],
+    heroImage: schoolHero,
+    cardImage: schoolCard,
+    galleryImages: [schoolCard, schoolHero, schoolGallery],
     color: "#D4AF6A",
     intro:
       "The Education Division of SOBHA Group is committed to shaping future generations by providing high-quality, value-based education. We aim to create learning environments that nurture talent, encourage innovation and build responsible global citizens.",
