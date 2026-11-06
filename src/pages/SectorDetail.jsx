@@ -80,10 +80,9 @@ const SectorDetail = () => {
         <div className="container-custom">
           <Link
             to="/"
-            className="btn-outline-gold"
-            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', padding: '0.55rem 1rem' }}
+            className="btn-outline-gold sector-back-link"
           >
-            <ArrowLeft size={15} /> Back to Explore
+            <ArrowLeft size={15} aria-hidden="true" /> <span>Back to Explore</span>
           </Link>
         </div>
       </div>
@@ -132,6 +131,31 @@ const SectorDetail = () => {
               </div>
             </div>
           </div>
+
+          {sector.portfolioGroups && (
+            <div className="hospitality-portfolio" data-aos="fade-up">
+              <SectionTitle
+                label="Hospitality Portfolio"
+                title="Resorts & Food"
+                align="left"
+              />
+              <div className="hospitality-portfolio-grid">
+                {sector.portfolioGroups.map((group) => (
+                  <section className="hospitality-portfolio-group" key={group.name}>
+                    <h3>{group.name}</h3>
+                    <div className="hospitality-portfolio-entries">
+                      {group.entries.map((entry) => (
+                        <div className="hospitality-portfolio-entry" key={entry.name}>
+                          <h4>{entry.name}</h4>
+                          {entry.tagline && <p>{entry.tagline}</p>}
+                        </div>
+                      ))}
+                    </div>
+                  </section>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 

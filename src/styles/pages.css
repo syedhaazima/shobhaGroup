@@ -27,6 +27,77 @@
   gap: 1rem;
 }
 
+.sector-back-link {
+  gap: 0.7rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(212,175,106,0.08), rgba(5,6,8,0.35));
+  box-shadow: inset 0 0 0 1px rgba(212,175,106,0.05);
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+}
+
+.sector-back-link svg {
+  transition: transform 0.25s ease;
+}
+
+.sector-back-link:hover svg {
+  transform: translateX(-3px);
+}
+
+.sector-back-link:focus-visible {
+  outline: 2px solid var(--cream);
+  outline-offset: 3px;
+}
+
+.hospitality-portfolio {
+  margin-top: 4rem;
+}
+
+.hospitality-portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.hospitality-portfolio-group {
+  min-width: 0;
+  padding: 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+}
+
+.hospitality-portfolio-group h3 {
+  margin-bottom: 1rem;
+}
+
+.hospitality-portfolio-entries {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.hospitality-portfolio-entry {
+  min-width: 0;
+  padding: 1rem;
+  background: rgba(5, 6, 8, 0.35);
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+}
+
+.hospitality-portfolio-entry h4 {
+  margin: 0;
+  color: var(--cream);
+  font-size: 1rem;
+}
+
+.hospitality-portfolio-entry p {
+  margin: 0.5rem 0 0;
+  color: var(--grey);
+  font-size: 0.9rem;
+}
+
 /* Sector Detail Hero */
 .sector-detail-hero {
   position: relative;
@@ -640,6 +711,7 @@
   .about-intro-image { height: 300px; }
   .sector-detail-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
   .leadership-principles-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hospitality-portfolio-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {

@@ -129,15 +129,20 @@ export const sectors = [
       "Hotel & Resort Management",
       "Guest Experience Design",
       "Food & Beverage Services",
-      "Event & Banquet Management",
-      "Concierge Services",
-      "Hospitality Staff Training",
       "Primary & Specialist Medical Care",
       "Diagnostic Services",
-      "Pharmacy & Medication Management",
-      "Preventive Health Programs",
-      "Community Health Outreach",
-      "Patient Support & Counseling",
+    ],
+    portfolioGroups: [
+      {
+        name: "Resorts",
+        entries: [
+          { name: "The Soul", tagline: "Resort for Aathma Thirupthi" },
+        ],
+      },
+      {
+        name: "Food & Dining",
+        entries: [{ name: "Halal Food Promoters" }],
+      },
     ],
     details:
       "In hospitality, we focus on comfort, attentive service and memorable guest experiences. In healthcare, we are committed to accessible, compassionate care, ethical practice and community well-being. Both areas share a dedication to quality, dignity and putting people first.",

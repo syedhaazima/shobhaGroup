@@ -129,7 +129,7 @@ const Leadership = () => {
           <SectionTitle
             label="Leadership Pillars"
             title="Principles That Guide the Organization"
-            subtitle="Dr. Ali's leadership is founded on these core principles that shape the culture and direction of SHOBHA GROUP."
+            subtitle="Dr. Mohamed Soukath Ali's leadership is founded on these core principles that shape the culture and direction of SHOBHA GROUP."
           />
           <div className="leadership-principles-grid">
             {[
@@ -159,7 +159,7 @@ const Leadership = () => {
           <div style={{ maxWidth: '780px', margin: '0 auto', textAlign: 'center' }}>
             <SectionTitle
               label="Forward Vision"
-              title="Dr. Ali's Vision for SHOBHA GROUP"
+              title="Dr. Mohamed Soukath Ali's Vision for SHOBHA GROUP"
             />
             <p data-aos="fade-up" style={{ fontSize: '1.05rem', marginBottom: '1.5rem' }}>
               Dr. Mohamed Soukath Ali envisions SHOBHA GROUP as a beacon of responsible,

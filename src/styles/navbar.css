@@ -26,38 +26,27 @@
 .navbar-brand-link {
   display: inline-flex;
   align-items: center;
+  gap: 0.65rem;
   text-decoration: none;
   flex-shrink: 0;
   margin-right: auto;
 }
 
-.navbar-brand-main {
-  position: relative;
-  display: grid;
-  place-items: center;
-  min-width: 106px;
+.navbar-brand-logo {
+  display: block;
+  width: auto;
   height: 44px;
-  padding: 0 14px;
-  font-family: var(--font-serif);
-  font-size: 1.35rem;
-  font-weight: 600;
-  color: var(--gold-light);
-  letter-spacing: 0.02em;
-  line-height: 1;
-  border: 1px solid rgba(212, 175, 106, 0.85);
-  border-radius: 10px;
-  background: linear-gradient(135deg, rgba(212, 175, 106, 0.14), rgba(5, 6, 8, 0.35));
-  box-shadow: 0 0 18px rgba(212, 175, 106, 0.12), inset 0 0 12px rgba(212, 175, 106, 0.06);
-  text-shadow: 0 1px 8px rgba(212, 175, 106, 0.3);
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
-.navbar-brand-main::before {
-  content: '';
-  position: absolute;
-  inset: 3px;
-  border: 1px solid rgba(212, 175, 106, 0.2);
-  border-radius: 7px;
-  pointer-events: none;
+.navbar-brand-name {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gold-light);
+  letter-spacing: 0.12em;
+  line-height: 1;
 }
 
 .navbar-brand-sub {

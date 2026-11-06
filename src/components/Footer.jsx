@@ -76,13 +76,8 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="footer-bottom">
           <p className="footer-copyright">
-            &copy; {CURRENT_YEAR} SHOBHA GROUP. All rights reserved. Managed by Dr. Mohamed Soukath Ali.
+            &copy; {CURRENT_YEAR} SHOBHA GROUP. Managed by Dr. Mohamed Soukath Ali.
           </p>
-          <div className="footer-legal-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
-            <a href="#">Sitemap</a>
-          </div>
         </div>
       </div>
     </footer>
