@@ -46,7 +46,7 @@ const Navbar = () => {
           <div className="navbar-inner">
             {/* Brand */}
             <Link to="/" className="navbar-brand-link" onClick={closeMenu} aria-label="Shobha Group home">
-              <img className="navbar-brand-logo" src={goldEmblem} alt="" />
+              <img className="navbar-brand-logo" src={goldEmblem} alt="" fetchPriority="high" />
               <span className="navbar-brand-name">SHOBHA</span>
             </Link>
 
